@@ -19,21 +19,16 @@
 ### Procedure
 
 1. Clone this repository.
-2. 
-```sh
- npm start
- ```
- [http://localhost:3001](http://localhost:3001) to view it in the browser.
-2. 
+2. In the terminal _`cd bobble-ai`
+3. _`npm install --save react-social-login-buttons`
+4. `npm install @material-ui/core`
+5. `npm install react react-dom react-facebook-login --save --force`
+6. `npm install react-google-login`
+7. `npm install @material-ui/icons`
+8. _`npm start`
+ Will run only in [http://localhost:3001](http://localhost:3001)
 
 ## Author
 
-[Hrishabh Digaari](https://www.linkedin.com/in/hrishabh-d-35aa60127/) - LinkedIn
-
-## Acknowledgments
-
-* https://arxiv.org/pdf/1506.02640.pdf
-* https://arxiv.org/pdf/1804.02767.pdf
-* https://flask.palletsprojects.com/
-* https://firebase.google.com/docs/web/setup
+[Hrishabh Digaari](https://www.linkedin.com/in/hrishabh-digaari/) - LinkedIn
 
