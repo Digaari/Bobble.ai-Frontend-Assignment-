@@ -20,12 +20,12 @@
 
 1. Clone this repository.
 2. In the terminal _`cd bobble-ai`
-3. _`npm install --save react-social-login-buttons`
+3. `npm install --save react-social-login-buttons`
 4. `npm install @material-ui/core`
 5. `npm install react react-dom react-facebook-login --save --force`
 6. `npm install react-google-login`
 7. `npm install @material-ui/icons`
-8. _`npm start`
+8. `npm start`
  Will run only in [http://localhost:3001](http://localhost:3001)
 
 ## Author
