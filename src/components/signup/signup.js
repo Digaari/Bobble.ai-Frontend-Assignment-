@@ -1,21 +1,14 @@
 import React from 'react';
-import Avatar from '@material-ui/core/Avatar';
-import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Facebook from './facebook';
 import Google from './google';
-// import OutlinedCard from '../card';
 import ClassNames from '../button';
 
 function Copyright() {
@@ -66,10 +59,6 @@ export default function SignUp() {
       <CssBaseline />
       
       <div className={classes.paper}>
-      
-        {/* <Avatar className={classes.avatar}>
-          <LockOutlinedIcon />
-        </Avatar> */}
       
         <Grid container spacing={3}>
 
@@ -144,13 +133,6 @@ export default function SignUp() {
           <ClassNames type="submit" fullWidth variant="contained" color= {"#ffffff"} className={classes.submit}>
             Sign Up
           </ClassNames>
-          {/* <Grid container justify="flex-end">
-            <Grid item>
-              <Link href="#" variant="body2">
-                Already have an account? Sign in
-              </Link>
-            </Grid>
-          </Grid> */}
         </form>
       </div>
     </Container>

@@ -8,7 +8,6 @@ import Typography from '@material-ui/core/Typography';
 import Signup from './signup/signup';
 import Container from '@material-ui/core/Container';
 import SignUp from './signup/signup';
-// import Facebook from '.'
 
 const useStyles = makeStyles((theme) =>({
   root: {
